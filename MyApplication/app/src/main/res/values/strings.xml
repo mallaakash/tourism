@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_service_activity">service_activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_imageproc">imageproc</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_service"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="in.raj.myapplication.service">
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        app:srcCompat="@drawable/logo3"
+        android:id="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_feedback"
+        android:background="@drawable/button"
+        android:text="Complaints and Feedback"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="87dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignStart="@+id/button_culture" />
+
+    <Button
+        android:id="@+id/button_culture"
+        android:background="@drawable/button"
+        android:text="Culture and Tradition"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="46dp"
+        android:layout_above="@+id/button_feedback"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/button_payment"
+        android:text="Price and Ticketing"
+        android:background="@drawable/button"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignStart="@+id/button_feedback"
+        android:onClick="onbuy" />
+
+</RelativeLayout>
